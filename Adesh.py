@@ -18,8 +18,8 @@ print("")
 
 #Q2
 print("Q2) What does 'WHO' stand for?")
-Q2.lower() = input("Ans: ")
-if Q2 == "world health organisation":
+Q2 = input("Ans: ")
+if Q2.lower() == "world health organisation":
     print("Correct")
     points = points + 1
 else:
@@ -28,8 +28,8 @@ print("")
 
 #Q3
 print("Q3) Which year did India get Independence?")
-Q3.lower() = input("Ans: ")
-if Q3 == "1947":
+Q3 = input("Ans: ")
+if Q3.lower() == "1947":
     print("Correct")
     points = points + 1
 else:
@@ -38,8 +38,8 @@ print("")
 
 #Q4
 print("Q4) What is the full form of RBI?")
-Q4.lower() = input("Ans: ")
-if Q4 == "reserve bank of india":
+Q4 = input("Ans: ")
+if Q4.lower() == "reserve bank of india":
     print("Correct")
     points = points + 1
 else:
@@ -48,8 +48,8 @@ print("")
 
 #Q5
 print("Q5) how many players are there in a Cricket Team?")
-Q5.lower() = input("Ans: ")
-if Q5 == "11":
+Q5 = input("Ans: ")
+if Q5.lower() == "11":
     print("Correct")
     points = points + 1
 else:
